@@ -6,9 +6,6 @@ variable "instance_type" {
   type = string
   default="t2.nano"
 }
-variable "network" {
-  type = string
-}
 variable "subnet" {
   type = string
 }
