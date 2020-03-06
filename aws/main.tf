@@ -4,7 +4,7 @@ provider "aws" {
 data "aws_ami" "ubuntu" {
   most_recent = true
   filter {
-    name   = "name-changed"
+    name   = "name-changed-updated"
     values = ["ubuntu/images/hvm-ssd/ubuntu-trusty-14.04-amd64-server-*"]
   }
   filter {
