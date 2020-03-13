@@ -8,6 +8,7 @@ variable "instance_type" {
 }
 variable "subnet" {
   type = string
+  default = "subnet-3d82d101"
 }
 variable "associate_public_ip" {
   type    = bool
