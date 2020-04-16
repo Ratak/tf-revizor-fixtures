@@ -4,7 +4,7 @@ variable "region" {
 }
 variable "instance_type" {
   type = string
-  default="t3.nano"
+  default="t2.nano"
 }
 variable "subnet" {
   type = string
